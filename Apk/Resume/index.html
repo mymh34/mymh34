@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    
+
+   <section class="resume-main-container p-3">
+            <div class="container-xl px-0">
+                <div class="row sticky-top d-flex justify-content-between" style="top: 85.7292px;">
+                    <div class="col-12 d-md-none mb-2">
+                        <div class="resume-mobile-btns fix-btns">
+                            <div>
+                                <a href="https://www.learnvern.com/resume/Surendra%20Yadav" class="btn btn-blue btn-sm mob-edit-resume" target="_blank">
+                                    <i class="fas me-1 fa-eye"></i>
+                                    View Resume
+                                </a>
+                                
+                            </div>
+                            <div>
+                                <a href="javascript:;" data-bs-toggle="modal" data-bs-target="#referalModal" class="btn btn-blue btn-sm mob-edit-resume">
+                                    <i class="fas me-1 fa-share"></i>
+                                    Share
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row align-items-start">
+                                        <div class="col-xl-3 col-md-4 order-md-2 sticky-top" style="top: 85.7292px;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="resume-right-option head-set">
+                            <div class="resume-section-list mt-0">
+                                <div class="">
+                                    <a href="javascript:;" class="list-group-item list-group-item-action list-heading">
+                                        Resume Sections
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item list-group-item-action user_details_button" data-bs-toggle="modal" data-bs-target="#updateUserDetailsModal">
+                                        <span class="label-mob-set">Personal Details</span>
+                                        <i class="fas fa-user"></i>
+                                        <i class="fas fa-check-circle check-icon  active-icon "></i>
+                                        <i class="fas fa-edit text-right mob-edit float-end"> <span class="font-set-mob"></span></i>
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item list-group-item-action summary_details_button" data-bs-toggle="modal" data-bs-target="#summaryModal">
+                                        <span class="label-mob-set">Summary</span>
+                                        <i class="fas fa-align-left"></i>
+                                        <i class="fas fa-check-circle check-icon  active-icon "></i>
+                                        <i class="fas fa-edit text-right mob-edit float-end"> <span class="font-set-mob"></span></i>
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item list-group-item-action experience_details_button  addProfessionalExperience " data-section="experience_details">
+                                        <span class="label-mob-set">Experience</span>
+                                        <i class="fas fa-briefcase"></i>
+                                        <i class="fas fa-check-circle check-icon  active-icon "></i>
+                                        <i class="fas fa-edit text-right mob-edit float-end"> <span class="font-set-mob"></span></i>
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item list-group-item-action education_details_button  addEducationDiv " data-section="education_details">
+                                        <span class="label-mob-set">Education</span>
+                                        <i class="fas fa-graduation-cap"></i>
+                                        <i class="fas fa-check-circle check-icon  active-icon "></i>
+                                        <i class="fas fa-edit text-right mob-edit float-end"> <span class="font-set-mob"></span></i>
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item list-group-item-action course_details_button  addCourseDetails " data-section="courses">
+                                        <span class="label-mob-set">Course</span>
+                                        <i class="fas fa-book"></i>
+                                        <i class="fas fa-check-circle check-icon  active-icon "></i>
+                                        <i class="fas fa-edit text-right mob-edit float-end"> <span class="font-set-mob"></span></i>
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item list-group-item-action openSkillModal technical_skills_button" data-title="Technical Skills" data-identifier="technical_skills" data-infotext="Add whatever technical skills in this section that you want to tell employers about. Example - Project management, Software proficiency, Programming languages." data-values="MS office, AutoCAD,Excel,word,HTML,CSS,JAVASCRIPT,WEB development">
+                                        <span class="label-mob-set">Technical Skills</span>
+                                        <i class="fas fa-cogs"></i>
+                                        <i class="fas fa-check-circle check-icon  active-icon "></i>
+                                        <i class="fas fa-edit text-right mob-edit float-end"> <span class="font-set-mob"></span></i>
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item list-group-item-action openSkillModal hobby_details_button" data-title="Hobbies" data-identifier="hobby_details" data-infotext="Add details on Hobbies that you have Playing Cricket, Watching Movies, Learning new things." data-values="Music,Traveling">
+                                        <span class="label-mob-set">Hobbies</span>
+                                        <i class="fas fa-cubes"></i>
+                                        <i class="fas fa-check-circle check-icon  active-icon "></i>
+                                        <i class="fas fa-edit text-right mob-edit float-end"></i>
+                                    </a>
+                                    <a href="javascript:;" class="list-group-item list-group-item-action language_details_button  addLanguageDetails " data-section="language_details">
+                                        <span class="label-mob-set">Languages</span>
+                                        <i class="fas fa-book"></i>
+                                        <i class="fas fa-check-circle check-icon  active-icon "></i>
+                                        <i class="fas fa-edit text-right mob-edit float-end"> <span class="font-set-mob"></span></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                            <div class="col-xl-9 col-md-8 mt-4 mt-md-0">
+                            <form id="resumeForm">
+                                <div class="resume_container body-Out" style="width:100%;max-width:100%;margin-top:0!important;" id="resumeContainer">
+                                    <div class="resume_inner resume-height">
+                                        <div class="heading-sec btn-wraper hover-border-black sectionDiv focus-on content-item1 p-20">
+                                            <div class="row g-0 pic">
+                                                <div class="col-sm-9 pic g-0 mb-3">
+                                                    <div class="name-title hover-border-black">
+                                                        Surendra Yadav
+                                                    </div>
+                                                    <div class="job-title hover-border-black ">
+                                                        Engineer
+                                                    </div>
+                                                    <div class="contact-links-view mt-2">
+                                                        <div class="hover-border-black">
+                                                            <div class="contact-links">
+                                                                <i class="fa fa-envelope"></i>
+                                                                sy774614@gmail.com
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="contact-links-view">
+                                                        <div class="hover-border-black">
+                                                            <div class="contact-links">
+                                                                <i class="fa fa-phone" style="transform: rotate(100deg) translate(2px, 2px);"></i>
+                                                                8767973879
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hover-border-black">
+                                                        <div class="contact-links " style="word-break: break-word;">
+                                                            <i class="fa fa-map-marker-alt"></i>
+                                                            B.M.T Chowk, Rayyatwari Colliery, Chandrapur, 442401, Maharashtra, India
+                                                        </div>
+                                                    </div>
+                                                                                                            <div class="contact-links-view">
+                                                            <div class="hover-border-black">
+                                                                <div class="contact-links">
+                                                                    <i class="fab fa-linkedin"></i>
+                                                                    https://www.linkedin.com/in/yadusurend/
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                                                                    </div>
+                                                <div class="col-sm-3 mob-set">
+                                                    <div class="avatar-upload container-img">
+                                                        <div class="avatar-edit">
+                                                            <input type="file" id="imageUpload" class="image" accept=".png, .jpg, .jpeg">
+                                                            <label for="imageUpload"></label>
+                                                        </div>
+                                                        <div class="avatar-preview">
+                                                            <div id="imagePreview" style="background-image: url(https://assets.learnvern.com/resume_images/user_2616754_1754283267.jpg);">
+                                                            </div>
+                                                        </div>
+                                                        <div class="overlay">
+                                                            <i class="fa fa-camera" aria-hidden="true"></i>
+                                                        </div>
+                                                    </div>
+                                                    <!-- Remove btn starts -->
+                                                    <div class="text-center pe-2" id="removeImgDiv" style="display:  block ;">
+                                                        <a href="https://www.learnvern.com/resume/image-remove" class="action-btn-dark img-remove">Remove Image</a>
+                                                    </div>
+                                                    <!-- Remove btn ends -->
+                                                </div>
+                                            </div>
+                                            <div class="action-btn-wrap btn-set">
+                                                <div class="action-btn-dark" data-bs-toggle="modal" data-bs-target="#updateUserDetailsModal"><i class="fa fa-edit"></i>
+                                                    Edit
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--/User Name & Job-title-->
+                                        <hr>
+                                        <div class="btn-wraper hover-border-black sectionDiv focus-on content-item1 p-20" id="summarySection">
+                                            <div class="heading-title">
+                                                Summary
+                                            </div>
+                                                                                            <div class="summary-para" style="word-break: break-word;">
+                                                    I have completed my B-tech degree from Ballarpur Institute Of Technology, Chandrapur. I am giving my best to develop my skill and knowledge for my job roles in industry.
+                                                </div>
+                                                                                        <div class="action-btn-wrap btn-set">
+                                                <div class="action-btn-dark" data-bs-toggle="modal" data-bs-target="#summaryModal">
+                                                                                                            <i class="fa fa-edit"></i> Edit
+                                                                                                    </div>
+                                            </div>
+                                        </div>
+                                        <!--/Summary-->
+                                        <div class="btn-wraper hover-border-black mt-4 sectionDiv focus-on content-item1 p-20" id="professionalExperienceSection">
+                                            <div class="heading-title">
+                                                Experience
+                                            </div>
+                                                                                            <div id="sortExperienceDiv" class="ui-sortable">
+                                                                                                            <div class="experience-view btn-wraper hover-border-black professionalExperienceDiv" data-id="0" id="">
+                                                            <div class="row g-0 m-2 handle ui-sortable-handle">
+                                                                <div class="d-flex">
+                                                                    <div class="icon-move arrow-symbol">
+                                                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                                                            <path d="M19.9929 6.69571L17.2286 3.94429C17.0914 3.80714 16.9286 3.73857 16.74 3.73857C16.56 3.73857 16.4014 3.80714 16.2643 3.94429C16.1271 4.08143 16.0586 4.24 16.0586 4.42V5.80857H11.9186V1.65571H13.2943C13.4829 1.65571 13.6457 1.59143 13.7829 1.46286C13.92 1.32571 13.9886 1.16286 13.9886 0.974286C13.9886 0.785715 13.92 0.622857 13.7829 0.485714L11.0186 -2.27857C10.8814 -2.41571 10.7186 -2.48429 10.53 -2.48429C10.3414 -2.48429 10.1786 -2.41571 10.0414 -2.27857L7.29 0.485714C7.15286 0.622857 7.08429 0.785715 7.08429 0.974286C7.08429 1.16286 7.15286 1.32571 7.29 1.46286C7.42714 1.59143 7.58571 1.65571 7.76571 1.65571H9.15429V5.80857H5.00143V4.42C5.00143 4.24 4.93286 4.08143 4.79571 3.94429C4.66714 3.80714 4.50857 3.73857 4.32 3.73857C4.13143 3.73857 3.96857 3.80714 3.83143 3.94429L1.06714 6.69571C0.93 6.83286 0.861429 6.99571 0.861429 7.18429C0.861429 7.37286 0.93 7.53571 1.06714 7.67286L3.83143 10.4371C3.96857 10.5743 4.13143 10.6429 4.32 10.6429C4.50857 10.6429 4.66714 10.5743 4.79571 10.4371C4.93286 10.3 5.00143 10.1371 5.00143 9.94857V8.57286H9.15429V12.7129H7.76571C7.58571 12.7129 7.42714 12.7814 7.29 12.9186C7.15286 13.0557 7.08429 13.2143 7.08429 13.3943C7.08429 13.5829 7.15286 13.7457 7.29 13.8829L10.0414 16.6471C10.1786 16.7843 10.3414 16.8529 10.53 16.8529C10.7186 16.8529 10.8814 16.7843 11.0186 16.6471L13.7829 13.8829C13.92 13.7457 13.9886 13.5829 13.9886 13.3943C13.9886 13.2143 13.92 13.0557 13.7829 12.9186C13.6457 12.7814 13.4829 12.7129 13.2943 12.7129H11.9186V8.57286H16.0586V9.94857C16.0586 10.1371 16.1271 10.3 16.2643 10.4371C16.4014 10.5743 16.56 10.6429 16.74 10.6429C16.9286 10.6429 17.0914 10.5743 17.2286 10.4371L19.9929 7.67286C20.13 7.53571 20.1986 7.37286 20.1986 7.18429C20.1986 6.99571 20.13 6.83286 19.9929 6.69571Z" transform="translate(0 3)" class="clr"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="col-lg-3">
+                                                                        <div class="year-txt">
+                                                                            02/2022
+                                                                            - 02/2023
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-lg-9">
+                                                                        <div class="company-post-title">
+                                                                            Engineering Trainee (Apprentice)
+                                                                        </div>
+                                                                        <div class="company-title">
+                                                                            Indian Oil Corporation Limited (IOCL)
+                                                                        </div>
+                                                                                                                                            </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="action-btn-wrap">
+                                                                <div class="action-btn-dark editProfessionalExperience" data-key="0" data-section="experience_details"><i class="fa fa-edit"></i> 
+                                                                </div>
+                                                                <div class="action-btn-dark btn2 removeProfessionalExperience" data-key="0" data-section="experience_details">
+                                                                    <i class="fa fa-trash"></i> 
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                                                                    </div>
+                                                                                    <!--/Company Detail View-->
+                                            <div class="action-btn-wrap btn-set">
+                                                <div class="action-btn-dark addProfessionalExperience" data-section="experience_details"><i class="fa fa-plus"></i>
+                                                    Add
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--/Professional Experience-->
+                                        <div class="btn-wraper hover-border-black mt-4 sectionDiv focus-on content-item1 p-20" id="educationSection">
+                                            <div class="heading-title">
+                                                Education
+                                            </div>
+                                                                                            <div id="sortEducation">
+                                                    <div id="educationRow" class="ui-sortable">
+                                                                                                                    <div class="experience-view btn-wraper hover-border-black educationDiv" data-id="0">
+                                                                <div class="row g-0 m-2 handle ui-sortable-handle">
+                                                                    <div class="col-lg-3 d-flex">
+                                                                        <div class="icon-move arrow-symbol">
+                                                                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                                                                <path d="M19.9929 6.69571L17.2286 3.94429C17.0914 3.80714 16.9286 3.73857 16.74 3.73857C16.56 3.73857 16.4014 3.80714 16.2643 3.94429C16.1271 4.08143 16.0586 4.24 16.0586 4.42V5.80857H11.9186V1.65571H13.2943C13.4829 1.65571 13.6457 1.59143 13.7829 1.46286C13.92 1.32571 13.9886 1.16286 13.9886 0.974286C13.9886 0.785715 13.92 0.622857 13.7829 0.485714L11.0186 -2.27857C10.8814 -2.41571 10.7186 -2.48429 10.53 -2.48429C10.3414 -2.48429 10.1786 -2.41571 10.0414 -2.27857L7.29 0.485714C7.15286 0.622857 7.08429 0.785715 7.08429 0.974286C7.08429 1.16286 7.15286 1.32571 7.29 1.46286C7.42714 1.59143 7.58571 1.65571 7.76571 1.65571H9.15429V5.80857H5.00143V4.42C5.00143 4.24 4.93286 4.08143 4.79571 3.94429C4.66714 3.80714 4.50857 3.73857 4.32 3.73857C4.13143 3.73857 3.96857 3.80714 3.83143 3.94429L1.06714 6.69571C0.93 6.83286 0.861429 6.99571 0.861429 7.18429C0.861429 7.37286 0.93 7.53571 1.06714 7.67286L3.83143 10.4371C3.96857 10.5743 4.13143 10.6429 4.32 10.6429C4.50857 10.6429 4.66714 10.5743 4.79571 10.4371C4.93286 10.3 5.00143 10.1371 5.00143 9.94857V8.57286H9.15429V12.7129H7.76571C7.58571 12.7129 7.42714 12.7814 7.29 12.9186C7.15286 13.0557 7.08429 13.2143 7.08429 13.3943C7.08429 13.5829 7.15286 13.7457 7.29 13.8829L10.0414 16.6471C10.1786 16.7843 10.3414 16.8529 10.53 16.8529C10.7186 16.8529 10.8814 16.7843 11.0186 16.6471L13.7829 13.8829C13.92 13.7457 13.9886 13.5829 13.9886 13.3943C13.9886 13.2143 13.92 13.0557 13.7829 12.9186C13.6457 12.7814 13.4829 12.7129 13.2943 12.7129H11.9186V8.57286H16.0586V9.94857C16.0586 10.1371 16.1271 10.3 16.2643 10.4371C16.4014 10.5743 16.56 10.6429 16.74 10.6429C16.9286 10.6429 17.0914 10.5743 17.2286 10.4371L19.9929 7.67286C20.13 7.53571 20.1986 7.37286 20.1986 7.18429C20.1986 6.99571 20.13 6.83286 19.9929 6.69571Z" transform="translate(0 3)" class="clr"></path>
+                                                                            </svg>
+                                                                        </div>
+                                                                        <div class="year-txt">
+                                                                            08/2020
+                                                                            - 08/2023
+                                                                        </div>
+                                                                                                                                            </div>
+                                                                    <div class="col-lg-8">
+                                                                        <div class="row g-0 mx-auto education-row">
+                                                                            <div class="col-lg-10">
+                                                                                <div class="company-post-title">
+                                                                                    BTech/ BE
+                                                                                </div>
+                                                                                <div class="company-title">
+                                                                                    ballarpur institute of technology
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                                            <div class="col-lg-2 percentage-col">
+                                                                                    <span class="percentage-txt2">
+                                                                                        73.1 %
+                                                                                    </span>
+                                                                                </div>
+                                                                                                                                                    </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="action-btn-wrap">
+                                                                    <div class="action-btn-dark editEducation" data-key="0" data-section="education_details"><i class="fa fa-edit"></i>
+                                                                        
+                                                                    </div>
+                                                                                                                                    </div>
+                                                            </div>
+                                                                                                                    <div class="experience-view btn-wraper hover-border-black educationDiv" data-id="1">
+                                                                <div class="row g-0 m-2 handle ui-sortable-handle">
+                                                                    <div class="col-lg-3 d-flex">
+                                                                        <div class="icon-move arrow-symbol">
+                                                                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                                                                <path d="M19.9929 6.69571L17.2286 3.94429C17.0914 3.80714 16.9286 3.73857 16.74 3.73857C16.56 3.73857 16.4014 3.80714 16.2643 3.94429C16.1271 4.08143 16.0586 4.24 16.0586 4.42V5.80857H11.9186V1.65571H13.2943C13.4829 1.65571 13.6457 1.59143 13.7829 1.46286C13.92 1.32571 13.9886 1.16286 13.9886 0.974286C13.9886 0.785715 13.92 0.622857 13.7829 0.485714L11.0186 -2.27857C10.8814 -2.41571 10.7186 -2.48429 10.53 -2.48429C10.3414 -2.48429 10.1786 -2.41571 10.0414 -2.27857L7.29 0.485714C7.15286 0.622857 7.08429 0.785715 7.08429 0.974286C7.08429 1.16286 7.15286 1.32571 7.29 1.46286C7.42714 1.59143 7.58571 1.65571 7.76571 1.65571H9.15429V5.80857H5.00143V4.42C5.00143 4.24 4.93286 4.08143 4.79571 3.94429C4.66714 3.80714 4.50857 3.73857 4.32 3.73857C4.13143 3.73857 3.96857 3.80714 3.83143 3.94429L1.06714 6.69571C0.93 6.83286 0.861429 6.99571 0.861429 7.18429C0.861429 7.37286 0.93 7.53571 1.06714 7.67286L3.83143 10.4371C3.96857 10.5743 4.13143 10.6429 4.32 10.6429C4.50857 10.6429 4.66714 10.5743 4.79571 10.4371C4.93286 10.3 5.00143 10.1371 5.00143 9.94857V8.57286H9.15429V12.7129H7.76571C7.58571 12.7129 7.42714 12.7814 7.29 12.9186C7.15286 13.0557 7.08429 13.2143 7.08429 13.3943C7.08429 13.5829 7.15286 13.7457 7.29 13.8829L10.0414 16.6471C10.1786 16.7843 10.3414 16.8529 10.53 16.8529C10.7186 16.8529 10.8814 16.7843 11.0186 16.6471L13.7829 13.8829C13.92 13.7457 13.9886 13.5829 13.9886 13.3943C13.9886 13.2143 13.92 13.0557 13.7829 12.9186C13.6457 12.7814 13.4829 12.7129 13.2943 12.7129H11.9186V8.57286H16.0586V9.94857C16.0586 10.1371 16.1271 10.3 16.2643 10.4371C16.4014 10.5743 16.56 10.6429 16.74 10.6429C16.9286 10.6429 17.0914 10.5743 17.2286 10.4371L19.9929 7.67286C20.13 7.53571 20.1986 7.37286 20.1986 7.18429C20.1986 6.99571 20.13 6.83286 19.9929 6.69571Z" transform="translate(0 3)" class="clr"></path>
+                                                                            </svg>
+                                                                        </div>
+                                                                        <div class="year-txt">
+                                                                            08/2016
+                                                                            - 08/2020
+                                                                        </div>
+                                                                                                                                            </div>
+                                                                    <div class="col-lg-8">
+                                                                        <div class="row g-0 mx-auto education-row">
+                                                                            <div class="col-lg-10">
+                                                                                <div class="company-post-title">
+                                                                                    Diploma
+                                                                                </div>
+                                                                                <div class="company-title">
+                                                                                    k.j.somaiya polytechnic
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                                            <div class="col-lg-2 percentage-col">
+                                                                                    <span class="percentage-txt2">
+                                                                                        69.2
+                                                                                    </span>
+                                                                                </div>
+                                                                                                                                                    </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="action-btn-wrap">
+                                                                    <div class="action-btn-dark editEducation" data-key="1" data-section="education_details"><i class="fa fa-edit"></i>
+                                                                        
+                                                                    </div>
+                                                                                                                                            <div class="action-btn-dark btn2 removeEducationDiv" data-key="1" data-section="education_details"><i class="fa fa-trash"></i> 
+                                                                        </div>
+                                                                                                                                    </div>
+                                                            </div>
+                                                                                                                    <div class="experience-view btn-wraper hover-border-black educationDiv" data-id="2">
+                                                                <div class="row g-0 m-2 handle ui-sortable-handle">
+                                                                    <div class="col-lg-3 d-flex">
+                                                                        <div class="icon-move arrow-symbol">
+                                                                            <svg width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                                                                <path d="M19.9929 6.69571L17.2286 3.94429C17.0914 3.80714 16.9286 3.73857 16.74 3.73857C16.56 3.73857 16.4014 3.80714 16.2643 3.94429C16.1271 4.08143 16.0586 4.24 16.0586 4.42V5.80857H11.9186V1.65571H13.2943C13.4829 1.65571 13.6457 1.59143 13.7829 1.46286C13.92 1.32571 13.9886 1.16286 13.9886 0.974286C13.9886 0.785715 13.92 0.622857 13.7829 0.485714L11.0186 -2.27857C10.8814 -2.41571 10.7186 -2.48429 10.53 -2.48429C10.3414 -2.48429 10.1786 -2.41571 10.0414 -2.27857L7.29 0.485714C7.15286 0.622857 7.08429 0.785715 7.08429 0.974286C7.08429 1.16286 7.15286 1.32571 7.29 1.46286C7.42714 1.59143 7.58571 1.65571 7.76571 1.65571H9.15429V5.80857H5.00143V4.42C5.00143 4.24 4.93286 4.08143 4.79571 3.94429C4.66714 3.80714 4.50857 3.73857 4.32 3.73857C4.13143 3.73857 3.96857 3.80714 3.83143 3.94429L1.06714 6.69571C0.93 6.83286 0.861429 6.99571 0.861429 7.18429C0.861429 7.37286 0.93 7.53571 1.06714 7.67286L3.83143 10.4371C3.96857 10.5743 4.13143 10.6429 4.32 10.6429C4.50857 10.6429 4.66714 10.5743 4.79571 10.4371C4.93286 10.3 5.00143 10.1371 5.00143 9.94857V8.57286H9.15429V12.7129H7.76571C7.58571 12.7129 7.42714 12.7814 7.29 12.9186C7.15286 13.0557 7.08429 13.2143 7.08429 13.3943C7.08429 13.5829 7.15286 13.7457 7.29 13.8829L10.0414 16.6471C10.1786 16.7843 10.3414 16.8529 10.53 16.8529C10.7186 16.8529 10.8814 16.7843 11.0186 16.6471L13.7829 13.8829C13.92 13.7457 13.9886 13.5829 13.9886 13.3943C13.9886 13.2143 13.92 13.0557 13.7829 12.9186C13.6457 12.7814 13.4829 12.7129 13.2943 12.7129H11.9186V8.57286H16.0586V9.94857C16.0586 10.1371 16.1271 10.3 16.2643 10.4371C16.4014 10.5743 16.56 10.6429 16.74 10.6429C16.9286 10.6429 17.0914 10.5743 17.2286 10.4371L19.9929 7.67286C20.13 7.53571 20.1986 7.37286 20.1986 7.18429C20.1986 6.99571 20.13 6.83286 19.9929 6.69571Z" transform="translate(0 3)" class="clr"></path>
+                                                                            </svg>
+                                                                        </div>
+                                                                        <div class="year-txt">
+                                                                            06/2015
+                                                                            - 06/2016
+                                                                        </div>
+                                                                                                                                            </div>
+                                                                    <div class="col-lg-8">
+                                                                        <div class="row g-0 mx-auto education-row">
+                                                                            <div class="col-lg-10">
+                                                                                <div class="company-post-title">
+                                                                                    10th Pass
+                                                                                </div>
+                                                                                <div class="company-title">
+                                                                                    iggs
+                                                                                </div>
+                                                                            </div>
+                                                                                                                                                            <div class="col-lg-2 percentage-col">
+                                                                                    <span class="percentage-txt2">
+                                                                                        83.6
+                                                                                    </span>
+                                                                                </div>
+                                                                                                                                                    </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="action-btn-wrap">
+                                                                    <div class="action-btn-dark editEducation" data-key="2" data-section="education_details"><i class="fa fa-edit"></i>
+                                                                        
+                                                                    </div>
+                                                                                                                                            <div class="action-btn-dark btn2 removeEducationDiv" data-key="2" data-section="education_details"><i class="fa fa-trash"></i> 
+                                                                        </div>
+                                                                                                                                    </div>
+                                                            </div>
+                                                                                                            </div>
+                                                </div>
+                                                <!--/Education View-->
+                                                                                        <div class="action-btn-wrap btn-set">
+                                                <div class="action-btn-dark addEducationDiv" data-section="education_details"><i class="fa fa-plus"></i> Add
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--/Education-->
+                                        <div class="btn-wraper hover-border-black sectionDiv mt-4 focus-on content-item1 p-20" id="coursesSection">
+                                            <div class="heading-title">
+                                                Courses
+                                            </div>
+                                                                                            <div id="sortCourse" class="ui-sortable">
+                                                                                                            <div class="experience-view btn-wraper hover-border-black courseDiv" data-id="0">
+                                                            <div class="row g-0 m-2 handle ui-sortable-handle">
+                                                                
+                                                                <div class="col-12 d-flex">
+                                                                    <div class="icon-move arrow-symbol">
+                                                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                                                            <path d="M19.9929 6.69571L17.2286 3.94429C17.0914 3.80714 16.9286 3.73857 16.74 3.73857C16.56 3.73857 16.4014 3.80714 16.2643 3.94429C16.1271 4.08143 16.0586 4.24 16.0586 4.42V5.80857H11.9186V1.65571H13.2943C13.4829 1.65571 13.6457 1.59143 13.7829 1.46286C13.92 1.32571 13.9886 1.16286 13.9886 0.974286C13.9886 0.785715 13.92 0.622857 13.7829 0.485714L11.0186 -2.27857C10.8814 -2.41571 10.7186 -2.48429 10.53 -2.48429C10.3414 -2.48429 10.1786 -2.41571 10.0414 -2.27857L7.29 0.485714C7.15286 0.622857 7.08429 0.785715 7.08429 0.974286C7.08429 1.16286 7.15286 1.32571 7.29 1.46286C7.42714 1.59143 7.58571 1.65571 7.76571 1.65571H9.15429V5.80857H5.00143V4.42C5.00143 4.24 4.93286 4.08143 4.79571 3.94429C4.66714 3.80714 4.50857 3.73857 4.32 3.73857C4.13143 3.73857 3.96857 3.80714 3.83143 3.94429L1.06714 6.69571C0.93 6.83286 0.861429 6.99571 0.861429 7.18429C0.861429 7.37286 0.93 7.53571 1.06714 7.67286L3.83143 10.4371C3.96857 10.5743 4.13143 10.6429 4.32 10.6429C4.50857 10.6429 4.66714 10.5743 4.79571 10.4371C4.93286 10.3 5.00143 10.1371 5.00143 9.94857V8.57286H9.15429V12.7129H7.76571C7.58571 12.7129 7.42714 12.7814 7.29 12.9186C7.15286 13.0557 7.08429 13.2143 7.08429 13.3943C7.08429 13.5829 7.15286 13.7457 7.29 13.8829L10.0414 16.6471C10.1786 16.7843 10.3414 16.8529 10.53 16.8529C10.7186 16.8529 10.8814 16.7843 11.0186 16.6471L13.7829 13.8829C13.92 13.7457 13.9886 13.5829 13.9886 13.3943C13.9886 13.2143 13.92 13.0557 13.7829 12.9186C13.6457 12.7814 13.4829 12.7129 13.2943 12.7129H11.9186V8.57286H16.0586V9.94857C16.0586 10.1371 16.1271 10.3 16.2643 10.4371C16.4014 10.5743 16.56 10.6429 16.74 10.6429C16.9286 10.6429 17.0914 10.5743 17.2286 10.4371L19.9929 7.67286C20.13 7.53571 20.1986 7.37286 20.1986 7.18429C20.1986 6.99571 20.13 6.83286 19.9929 6.69571Z" transform="translate(0 3)" class="clr"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="d-inline-block">
+                                                                        <div class="company-post-title">
+                                                                            HTML &amp; CSS
+                                                                        </div>
+                                                                        <div class="company-title">
+                                                                            LearnVern
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                            <div class="action-btn-wrap">
+                                                                    <div class="action-btn-dark editCourseDetails" data-section="courses" data-key="0">
+                                                                        <i class="fa fa-edit"></i>
+                                                                    </div>
+                                                                    <div class="action-btn-dark btn2 removeCourseDiv" data-key="0" data-section="course_details"><i class="fa fa-trash"></i> 
+                                                                    </div>
+                                                                </div>
+                                                                                                                    </div>
+                                                                                                            <div class="experience-view btn-wraper hover-border-black courseDiv" data-id="1">
+                                                            <div class="row g-0 m-2 handle ui-sortable-handle">
+                                                                
+                                                                <div class="col-12 d-flex">
+                                                                    <div class="icon-move arrow-symbol">
+                                                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                                                            <path d="M19.9929 6.69571L17.2286 3.94429C17.0914 3.80714 16.9286 3.73857 16.74 3.73857C16.56 3.73857 16.4014 3.80714 16.2643 3.94429C16.1271 4.08143 16.0586 4.24 16.0586 4.42V5.80857H11.9186V1.65571H13.2943C13.4829 1.65571 13.6457 1.59143 13.7829 1.46286C13.92 1.32571 13.9886 1.16286 13.9886 0.974286C13.9886 0.785715 13.92 0.622857 13.7829 0.485714L11.0186 -2.27857C10.8814 -2.41571 10.7186 -2.48429 10.53 -2.48429C10.3414 -2.48429 10.1786 -2.41571 10.0414 -2.27857L7.29 0.485714C7.15286 0.622857 7.08429 0.785715 7.08429 0.974286C7.08429 1.16286 7.15286 1.32571 7.29 1.46286C7.42714 1.59143 7.58571 1.65571 7.76571 1.65571H9.15429V5.80857H5.00143V4.42C5.00143 4.24 4.93286 4.08143 4.79571 3.94429C4.66714 3.80714 4.50857 3.73857 4.32 3.73857C4.13143 3.73857 3.96857 3.80714 3.83143 3.94429L1.06714 6.69571C0.93 6.83286 0.861429 6.99571 0.861429 7.18429C0.861429 7.37286 0.93 7.53571 1.06714 7.67286L3.83143 10.4371C3.96857 10.5743 4.13143 10.6429 4.32 10.6429C4.50857 10.6429 4.66714 10.5743 4.79571 10.4371C4.93286 10.3 5.00143 10.1371 5.00143 9.94857V8.57286H9.15429V12.7129H7.76571C7.58571 12.7129 7.42714 12.7814 7.29 12.9186C7.15286 13.0557 7.08429 13.2143 7.08429 13.3943C7.08429 13.5829 7.15286 13.7457 7.29 13.8829L10.0414 16.6471C10.1786 16.7843 10.3414 16.8529 10.53 16.8529C10.7186 16.8529 10.8814 16.7843 11.0186 16.6471L13.7829 13.8829C13.92 13.7457 13.9886 13.5829 13.9886 13.3943C13.9886 13.2143 13.92 13.0557 13.7829 12.9186C13.6457 12.7814 13.4829 12.7129 13.2943 12.7129H11.9186V8.57286H16.0586V9.94857C16.0586 10.1371 16.1271 10.3 16.2643 10.4371C16.4014 10.5743 16.56 10.6429 16.74 10.6429C16.9286 10.6429 17.0914 10.5743 17.2286 10.4371L19.9929 7.67286C20.13 7.53571 20.1986 7.37286 20.1986 7.18429C20.1986 6.99571 20.13 6.83286 19.9929 6.69571Z" transform="translate(0 3)" class="clr"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="d-inline-block">
+                                                                        <div class="company-post-title">
+                                                                            Javacript
+                                                                        </div>
+                                                                        <div class="company-title">
+                                                                            LearnVern
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                            <div class="action-btn-wrap">
+                                                                    <div class="action-btn-dark editCourseDetails" data-section="courses" data-key="1">
+                                                                        <i class="fa fa-edit"></i>
+                                                                    </div>
+                                                                    <div class="action-btn-dark btn2 removeCourseDiv" data-key="1" data-section="course_details"><i class="fa fa-trash"></i> 
+                                                                    </div>
+                                                                </div>
+                                                                                                                    </div>
+                                                                                                            <div class="experience-view btn-wraper hover-border-black courseDiv" data-id="2">
+                                                            <div class="row g-0 m-2 handle ui-sortable-handle">
+                                                                
+                                                                <div class="col-12 d-flex">
+                                                                    <div class="icon-move arrow-symbol">
+                                                                        <svg width="21" height="20" viewBox="0 0 21 20" fill="none">
+                                                                            <path d="M19.9929 6.69571L17.2286 3.94429C17.0914 3.80714 16.9286 3.73857 16.74 3.73857C16.56 3.73857 16.4014 3.80714 16.2643 3.94429C16.1271 4.08143 16.0586 4.24 16.0586 4.42V5.80857H11.9186V1.65571H13.2943C13.4829 1.65571 13.6457 1.59143 13.7829 1.46286C13.92 1.32571 13.9886 1.16286 13.9886 0.974286C13.9886 0.785715 13.92 0.622857 13.7829 0.485714L11.0186 -2.27857C10.8814 -2.41571 10.7186 -2.48429 10.53 -2.48429C10.3414 -2.48429 10.1786 -2.41571 10.0414 -2.27857L7.29 0.485714C7.15286 0.622857 7.08429 0.785715 7.08429 0.974286C7.08429 1.16286 7.15286 1.32571 7.29 1.46286C7.42714 1.59143 7.58571 1.65571 7.76571 1.65571H9.15429V5.80857H5.00143V4.42C5.00143 4.24 4.93286 4.08143 4.79571 3.94429C4.66714 3.80714 4.50857 3.73857 4.32 3.73857C4.13143 3.73857 3.96857 3.80714 3.83143 3.94429L1.06714 6.69571C0.93 6.83286 0.861429 6.99571 0.861429 7.18429C0.861429 7.37286 0.93 7.53571 1.06714 7.67286L3.83143 10.4371C3.96857 10.5743 4.13143 10.6429 4.32 10.6429C4.50857 10.6429 4.66714 10.5743 4.79571 10.4371C4.93286 10.3 5.00143 10.1371 5.00143 9.94857V8.57286H9.15429V12.7129H7.76571C7.58571 12.7129 7.42714 12.7814 7.29 12.9186C7.15286 13.0557 7.08429 13.2143 7.08429 13.3943C7.08429 13.5829 7.15286 13.7457 7.29 13.8829L10.0414 16.6471C10.1786 16.7843 10.3414 16.8529 10.53 16.8529C10.7186 16.8529 10.8814 16.7843 11.0186 16.6471L13.7829 13.8829C13.92 13.7457 13.9886 13.5829 13.9886 13.3943C13.9886 13.2143 13.92 13.0557 13.7829 12.9186C13.6457 12.7814 13.4829 12.7129 13.2943 12.7129H11.9186V8.57286H16.0586V9.94857C16.0586 10.1371 16.1271 10.3 16.2643 10.4371C16.4014 10.5743 16.56 10.6429 16.74 10.6429C16.9286 10.6429 17.0914 10.5743 17.2286 10.4371L19.9929 7.67286C20.13 7.53571 20.1986 7.37286 20.1986 7.18429C20.1986 6.99571 20.13 6.83286 19.9929 6.69571Z" transform="translate(0 3)" class="clr"></path>
+                                                                        </svg>
+                                                                    </div>
+                                                                    <div class="d-inline-block">
+                                                                        <div class="company-post-title">
+                                                                            AutoCAD
+                                                                        </div>
+                                                                        <div class="company-title">
+                                                                            Computer institute
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                            <div class="action-btn-wrap">
+                                                                    <div class="action-btn-dark editCourseDetails" data-section="courses" data-key="2">
+                                                                        <i class="fa fa-edit"></i>
+                                                                    </div>
+                                                                    <div class="action-btn-dark btn2 removeCourseDiv" data-key="2" data-section="course_details"><i class="fa fa-trash"></i> 
+                                                                    </div>
+                                                                </div>
+                                                                                                                    </div>
+                                                                                                    </div>
+                                                                                        <div class="action-btn-wrap btn-set">
+                                                <div class="action-btn-dark addCourseDetails" data-section="courses"><i class="fa fa-plus"></i> Add
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="btn-wraper hover-border-black mt-4 sectionDiv focus-on content-item1 p-20" id="technicalSkillsSection">
+                                                    <div class="heading-title">
+                                                        Technical Skills
+                                                    </div>
+                                                                                                            <div class="row">
+                                                                                                                            <div class="col-sm-12 col-md-6 col-lg-3 skill-badge-wraper technicalSkillsDiv">
+                                                                    <input type="hidden" name="technical_skill_details[values][]" value="MS office">
+                                                                    <div class="skill-badge">MS office</div>
+                                                                </div>
+                                                                                                                            <div class="col-sm-12 col-md-6 col-lg-3 skill-badge-wraper technicalSkillsDiv">
+                                                                    <input type="hidden" name="technical_skill_details[values][]" value=" AutoCAD">
+                                                                    <div class="skill-badge"> AutoCAD</div>
+                                                                </div>
+                                                                                                                            <div class="col-sm-12 col-md-6 col-lg-3 skill-badge-wraper technicalSkillsDiv">
+                                                                    <input type="hidden" name="technical_skill_details[values][]" value="Excel">
+                                                                    <div class="skill-badge">Excel</div>
+                                                                </div>
+                                                                                                                            <div class="col-sm-12 col-md-6 col-lg-3 skill-badge-wraper technicalSkillsDiv">
+                                                                    <input type="hidden" name="technical_skill_details[values][]" value="word">
+                                                                    <div class="skill-badge">word</div>
+                                                                </div>
+                                                                                                                            <div class="col-sm-12 col-md-6 col-lg-3 skill-badge-wraper technicalSkillsDiv">
+                                                                    <input type="hidden" name="technical_skill_details[values][]" value="HTML">
+                                                                    <div class="skill-badge">HTML</div>
+                                                                </div>
+                                                                                                                            <div class="col-sm-12 col-md-6 col-lg-3 skill-badge-wraper technicalSkillsDiv">
+                                                                    <input type="hidden" name="technical_skill_details[values][]" value="CSS">
+                                                                    <div class="skill-badge">CSS</div>
+                                                                </div>
+                                                                                                                            <div class="col-sm-12 col-md-6 col-lg-3 skill-badge-wraper technicalSkillsDiv">
+                                                                    <input type="hidden" name="technical_skill_details[values][]" value="JAVASCRIPT">
+                                                                    <div class="skill-badge">JAVASCRIPT</div>
+                                                                </div>
+                                                                                                                            <div class="col-sm-12 col-md-6 col-lg-3 skill-badge-wraper technicalSkillsDiv">
+                                                                    <input type="hidden" name="technical_skill_details[values][]" value="WEB development">
+                                                                    <div class="skill-badge">WEB development</div>
+                                                                </div>
+                                                                                                                    </div>
+                                                                                                        <div class="action-btn-wrap btn-set">
+                                                        <div class="action-btn-dark openSkillModal" data-title="Technical Skills" data-infotext="Add whatever technical skills in this section that you want to tell employers about. Example - Project management, Software proficiency, Programming languages." data-values="MS office, AutoCAD,Excel,word,HTML,CSS,JAVASCRIPT,WEB development" data-identifier="technical_skills">
+                                                                                                                            <i class="fa fa-edit"></i> Edit
+                                                                                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <!--/Technical Skill-->
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="btn-wraper hover-border-black mt-4 sectionDiv focus-on content-item1 p-20" id="hobbySection">
+                                                    <div class="heading-title">
+                                                        Hobbies
+                                                    </div>
+                                                                                                                                                                        <div class="skill-badge-wraper hobbyDiv">
+                                                                <input type="hidden" name="hobby_details[values][]" value="Music">
+                                                                <div class="skill-badge">Music</div>
+                                                            </div>
+                                                                                                                    <div class="skill-badge-wraper hobbyDiv">
+                                                                <input type="hidden" name="hobby_details[values][]" value="Traveling">
+                                                                <div class="skill-badge">Traveling</div>
+                                                            </div>
+                                                                                                                                                                <div class="action-btn-wrap btn-set">
+                                                        <div class="action-btn-dark openSkillModal" data-title="Hobbies" data-infotext="Add details on Hobbies that you have Playing Cricket, Watching Movies, Learning new things." data-identifier="hobby_details" data-values="Music,Traveling">
+                                                                                                                            <i class="fa fa-edit"></i> Edit
+                                                                                                                    </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <div class="btn-wraper hover-border-black sectionDiv mt-4 focus-on content-item1 p-20" id="languageSection">
+                                                    <div class="heading-title">
+                                                        Languages
+                                                    </div>
+                                                                                                                                                                        <div class="skill-badge-wraper languageDiv">
+                                                                <b>English</b> - Proficient  (Read,Write,Speak)                                                                 <div class="action-btn-wrap">
+                                                                    <div class="action-btn-dark editLanguageDetails" data-section="language_details" data-key="0">
+                                                                        <i class="fa fa-edit"></i>
+                                                                    </div>
+                                                                    <div class="action-btn-dark btn2 removeLanguageDiv" data-key="0" data-section="language_details"><i class="fa fa-trash"></i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                    <div class="skill-badge-wraper languageDiv">
+                                                                <b>Hindi</b> - Proficient  (Read,Write,Speak)                                                                 <div class="action-btn-wrap">
+                                                                    <div class="action-btn-dark editLanguageDetails" data-section="language_details" data-key="1">
+                                                                        <i class="fa fa-edit"></i>
+                                                                    </div>
+                                                                    <div class="action-btn-dark btn2 removeLanguageDiv" data-key="1" data-section="language_details"><i class="fa fa-trash"></i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                    <div class="skill-badge-wraper languageDiv">
+                                                                <b>Marathi</b> - Proficient  (Read,Write,Speak)                                                                 <div class="action-btn-wrap">
+                                                                    <div class="action-btn-dark editLanguageDetails" data-section="language_details" data-key="2">
+                                                                        <i class="fa fa-edit"></i>
+                                                                    </div>
+                                                                    <div class="action-btn-dark btn2 removeLanguageDiv" data-key="2" data-section="language_details"><i class="fa fa-trash"></i>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                                                                                                                                <div class="action-btn-wrap btn-set">
+                                                        <div class="action-btn-dark addLanguageDetails" data-section="language_details"><i class="fa fa-plus"></i> Add
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--/Key & Technical Skill Row-->
+                                    </div>
+                                    <!--End Resume_Inner-->
+                                </div>
+                            </form>
+                        </div>
+                                        
+                </div>
+            </div>
+        </section>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    </meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </meta>
+    <title>Document</title>
+    <b:skin>
+
+    </b:skin>
+</head>
+
+<body expr:class="data:blog.pageType">
+
+
+    <div class="header-area">
+        <b:section id="header" name="Header" showaddelement="false">
+            <b:widget id="Header1" title="Website Developers (Header)" type="Header" locked="true">
+
+            </b:widget>
+        </b:section>
+
+    </div>
+
+    <!--Header Area End-->
+
+    <b:if cond="data:blog.url==data:blog.homepageUrl">
+        <article class="home-posts">
+            <a expr:href="data:blog.url">
+                <div class="post-bg-img" 
+                expr:style="&quat;background:url(&quate; + data:post.firstImageUrl + &quat;)&quat;"/>
+            </a>
+
+        </article>
+    </b:if>
+
+    <!--Content Area-->
+
+    <div class="content-area">
+        <b:section class="main" id="main" showdelement="yes">
+            <b:widget id="Blog1" title="Blog Posts" type="Blog" version="1" locked="true">
+
+            </b:widget>
+        </b:section>
+    </div>
+
+     <!--Content Area-->
+
+     <div id="sidebar-wrapper" class="sidebar-wrapper">
+        
+
+     </div>
+
+</body>
+
+</html>
