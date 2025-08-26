@@ -1,0 +1,14 @@
+Git and Github
+
+instaling add git with github
+
+git config --global user.name "mymh34"
+
+git config --global user.email "mymh34office@gmail.com"
+
+git config --global color.ui "auto"
+
+
+Mandatory Commands
+     >> git init
+     >> git remote add origin https://github.com/mymh34/mymh34.git

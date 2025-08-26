@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(180, 180, 180);
+}
+header{
+    background-color: white;
+}
+.header{
+    display: flex;
+    height: 50px;    
+    border-bottom: 1px solid gray;
+    box-shadow: 0 0 10px gray;
+}
+#logo{
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 25px;
+}
+nav{
+    position: absolute;
+    background-color: white;
+    color: blue;
+    width: 180px;
+    height: 100%;
+    padding: 20px;
+    transform: translateX(-150px);
+
+}
+#micon{
+    top: 0px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+#micon i{
+    
+}
+input{
+    
+}
+a{
+    text-decoration: none;
+    color:blue ;
+}
+input :checked nav{
+    transform: translateX(0);
+}
